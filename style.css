@@ -1,0 +1,754 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+
+html{
+    scroll-behavior: smooth !important;
+}
+
+
+button{
+    cursor: pointer;
+}
+                                                           /*Header begins*/
+h3{
+    font-size: 14px;
+    vertical-align: middle;
+    &:hover{
+        color:white;
+    }
+}
+
+.negativeBanner{
+    display: flex;
+    align-items: center;
+}
+.firstbanner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fc2779 url('/img/banner.png') no-repeat center/cover;
+    height: 40px;
+}
+.positiveBanner ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    height: 100%;
+    padding: 5px 0;
+    font-size: 14px;
+}
+.innerBanner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 0 150px;
+}
+.Navbanner{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    height: 100%;
+    padding: 5px 0;
+}
+.list a{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    gap: 5px;
+}
+.list a:hover{
+    color: white;
+}
+.list a:hover svg{
+    fill:#fff !important;
+    color: white;
+}
+.border{
+    border-right: 2px solid rgb(0, 0, 0);
+    height: 100%;
+    margin: 0 10px;
+}
+
+                                                   /*Header ends*/
+
+                                                   /*Section Begins*/
+
+.firstnav a:hover{
+    color: #fc2779;
+}
+.button{
+    background-color: #fc2779;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    transition: 0.5s;
+    color: white;
+    
+    &:hover{
+        background-color: #c2035f;
+    }
+}
+
+.searchicon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(128, 128, 128, 0.136);
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+.searchicon input{
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: grey;
+    background-color: transparent;
+    font-size: 15px;
+
+    &:focus-visible{
+        border: 0;
+        outline: 0;
+    }
+} 
+.navMain{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding:2px 150px;
+   border-bottom: 1px solid rgb(192, 186, 186);
+}
+.Nykaalogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px
+}
+.firstnav ul{
+    display: flex;
+    align-items: center;
+    gap:50px;
+    list-style: none;
+    padding: 20px 0;
+}
+.firstnav ul li a{
+    text-decoration: none;
+    color: rgba(17, 16, 16, 0.867);
+    font-weight: bold;
+    font-size: 14px;
+}
+.firstinput{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.basket{
+   align-items: center;
+   margin: 10px;
+}
+
+                                                     /*Section Ends*/
+
+
+                                                     /*Nav Begins*/
+.navtwo{
+   padding: 15px 150px;
+   box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.129);
+}
+.navtwo a:hover{
+    color: #fc2779;
+}
+.navtwo ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 14px;
+    align-items: center;
+}
+.navtwo ul a{
+   text-decoration: none;
+   color: rgba(59, 58, 58, 0.555);
+}
+
+                                                      /*Nav Ends*/
+
+
+                                                      /*Hero Section Begins*/
+.herosection{
+    width: 100%;
+    height: 100%;
+}
+.graphicOne img{
+    width: 100%;
+    padding: 10px;
+}
+.bluebanner{
+    background-color: #e0f7ff ;
+}
+.imgbanner2 img{
+    width: 100%;
+    padding: 0 ;
+    margin: 0;
+}
+.BN{
+    background-color: #e0f7ff;
+    padding: 20px;
+    display: flex;
+    gap: 15px; 
+}
+.bn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 15px;
+    justify-content: center;
+    padding: 0 ;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.bn img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    border-radius: 15px;
+}
+.imgbanner6 img{
+    width: 100%;
+}
+.imgbanner4 img{
+    width: 100%
+}
+.imgbanner5 img{
+    width: 100%
+}   
+                                                            /*Hero Section Ends*/
+
+
+                                                            /*Purple Banner & Scents Begins*/
+.imgbannerseven img{
+    width: 100%;
+    padding: 0 10px;
+    margin: 0;
+}
+.purplebn{
+display: flex;
+width: 100%;
+}
+.pbn{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr) ;
+    width: 100%;
+    padding: 10px 90px;
+    justify-content: space-between;
+}
+.blueoffer img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+                                                           /*Purple Banner & Scents Ends*/
+
+
+                                                           /*Pink Banner Begins*/
+.pinkbanner img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.sectiontwo{
+    background-color:  #ffddf8;
+}
+.pinkmainone{
+    background-color: #ffddf8;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+}
+.pinkmaintwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 15px;
+    justify-content: center;
+    padding: 0 ;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.pinkmaintwo img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    border-radius: 15px;
+}
+.pinkone img{
+    width: 100%;
+}
+.pinktwo img{
+    width: 100%;
+}
+.pinkthree img{
+    width: 100%;
+}
+.purplesec img{
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+                                                          /*Pink Banner Ends*/
+
+                                                          /*Dark Pink Banner Begins*/
+.dpbnone{
+    height: 100%;
+    width: 100%;
+}                                                       
+.darkpinkbanner img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.hotpinkbg{
+    background-color: #ff67c3;
+}
+.dpbntwo{
+    background-color: #ff67c3;
+}
+.firstdark{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 90px;
+}
+.firstdark img{
+    border-radius: 18px;
+}
+.seconddark{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 90px;
+}
+.seconddark img{
+   border-radius: 18px;
+}
+                                                    /*Dark Pink Banner Ends*/
+
+                                                    /*Light Pink Banner Begins*/
+.lightpinkbanner img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.lpbnone{
+    background-color: #ffecfd;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+} 
+.lightpinksection{
+    background-color: #ffecfd;
+}   
+.lpbntwo{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    padding: 0 30px;
+} 
+.lpbntwo img{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+    border-radius: 30px;
+}    
+
+
+                                                     /*Light Pink Banner Ends*/
+
+
+                                                     /*Post Footer Banners begins partone*/
+
+
+.footerbanner img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.footerbannerfirst img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+} 
+.fone{
+    padding: 20px;
+    display: flex;
+    gap:10px;
+}    
+.ftwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 5px;
+    justify-content: center;
+    padding: 10px 380px;
+    justify-content: space-between;
+}
+.ftwo img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+                                                    /*Post Footer Banners Ends partone*/
+
+
+                                                   /*Post Footer Banners starts parttwo*/
+.buttonthree{
+    color: white;
+    background-color: #e80070 ;
+    border: none;
+    padding: 15px 700px;
+    margin: 5px 30px;
+    border-radius: 10px;
+    transition: 0.5s;
+     &:hover{
+        background-color: #c2035f;
+    }
+}
+                                                  /*Post Footer Banners Ends parttwo*/
+
+
+                                                  /*Footer Disclaimer Begins*/
+.footerdisclaimer img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+                                                  /*Footer Disclaimer Ends*/
+
+
+                                                  /*Footer Part One Begins*/
+.heading{
+  margin: 20px 20px 20px 20px;
+
+}                                              
+.footerfirsttwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #3a4047;
+    width: 100%;
+    padding-right: 0;
+}
+.svgone{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 10px;
+    width: 100%;
+}
+#inputone input{
+    border: 0;
+    border: transparent;
+    background-color: #3a4047;
+    color: #fff;
+    border-bottom: 1PX solid white;
+    padding: 5px;
+}
+.firstinput::placeholder{
+    color: white;
+    font-weight: bold;
+}
+#inputone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2px;
+    padding-top: 15px;
+}
+.buttontwo{
+    align-items: center;
+    justify-content: center;
+    background-color: #3a4047;
+    color: white;
+    border:  1px solid white;
+    border-radius: 0;
+    padding: 5px;
+}
+#svgtwo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+#svgtwo p{
+    font-size: 13px;
+}
+.svgthree{
+    display: flex;
+  
+    padding-top: 10px;
+    background-color: #3a4047;
+}
+.svgfour{
+    display: flex;
+    gap: 10px;
+    color: white;
+    align-items: center;
+}
+.seclast{
+    display: flex;
+    padding-bottom: 30px;
+    align-items: start;
+}
+.last{
+    color: white;
+}
+.last p{
+    font-size: 13px;
+    margin: 0;
+}
+.svgthree{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+                                                  /*Footer Part One Ends*/
+
+
+                                                  /*Footer Part two Begins*/
+.footersecone{
+    display: flex;
+    flex-direction: column;
+    background-color: #8c8d94;
+    width: 100%;
+}               
+.footersectwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding: 70px;
+    background-color: #8c8d94;
+}  
+.footersecthree{
+    display: block;
+}                  
+.footersecthree ul li{
+    text-decoration: none;
+    list-style: none;
+}              
+.footersecthree ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    line-height: 2;
+}
+.footersecthree a:hover{
+    color: #e43678;
+}
+.footersecthree h4{
+    margin-bottom: 20px;
+}
+#ftwo h4{
+    margin-bottom: 20px;
+    color: white;
+}
+#ftwo{
+    font-size: 13px;
+}
+                                                  /*Footer Part two Ends*/
+
+
+                                                  /*Footer Part three Begins*/
+.footerthirdtwo{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 50px 165px;
+    gap: 20px;
+    width: 100%;
+}       
+.footerthirdthree{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}     
+.footerthirdfour{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}         
+.pinkcircle{
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 70%;
+}      
+.pinkcircle h4{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}    
+.pinkcircle p{
+    border-top: 1px solid;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.definedline p{
+    font-size: 12px;
+    font-weight: 500;
+    list-style: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: lowercase;
+   
+}
+.socialmediaicons ul{
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 15px 15px;
+}
+
+                                                  /*Footer Part three Ends*/
+
+
+                                                  /*Footer Part four Begins*/
+.footerfourthone{
+    background-color: #e80071;
+}                              
+.footerfourthtwo ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 10px;
+    list-style: none;
+}                   
+.footerfourthtwo ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+.footerfourthtwo p{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    padding: 10px;
+    font-size: 12px;
+}
+                                                  /*Footer Part four Ends*/
+
+                                                   
+                                                  /*Footer last part Begins*/
+.footerlasttwo{
+    border-color: #f3f3f3;
+}      
+.paragraph{
+    padding: 20px 80px;
+}                      
+.paragraph h4{
+    margin-bottom: 10px;
+}                     
+.paragraph ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 2px;
+    background-color: #f3f3f3;
+    padding:  5px 0;
+}
+.footerlastone{
+    background-color: #f3f3f3;
+}
+.paragraph ul li a{
+    background-color: #f3f3f3;
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: transparent;
+}
+.footerlastone h4{
+    text-align: left;
+    background-color: #f3f3f3;
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(140,141,148);
+}
+#paragraph{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.233);
+}
+                                                  /*Footer last part Ends*/
+
+
+                                                  /*Arrow Button Starts*/
+.arrowupbutton{
+    position: fixed;
+    right: 20px;
+    bottom: 70px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: #f1f1f1;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+                                                  /*Arrow button Ends*/
+
+
+                                                  /*Help Box Begins*/
+.helpbox{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #fff;
+    border-radius: 25px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+.helpbox input{
+    border: none;
+    outline: none;
+    margin-left: 8px;
+    font-size: 14px;
+}
+                                                   /*Help Box Ends*/
+
+
